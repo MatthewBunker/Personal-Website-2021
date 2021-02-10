@@ -6,53 +6,112 @@
     <link rel="stylesheet" href="style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9416ac0d46.js" crossorigin="anonymous"></script>
+
     <title>Matthew Bunker Personal Website</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <div class="logo-name">
+          <a class="navbar-brand" href="#"><img src="images/logo.jfif" height="40px" width="40px" alt=""></a>
+          <div class="nav-name">
+            <h5>Matthew Bunker</h5>
           </div>
         </div>
-      </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <div class="title-text">
-        <h1>Hi Welcome,</h1>
-        <h1>My Name Is Matthew Bunker</h1>
+    <div class="fill-div" style="margin-bottom: 25px;">
+      <div class="title-text">
+          <h1>Hi, I'm Matthew</h1>
+          <h5>Computer Science Student</h5>
+          <div class="social-media">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </div>
+      </div>
     </div>
 
     <div class="fill-div">
-        <div class="card bg-dark">
+        <div class="card picture-carousel bg-dark">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>  
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li> 
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li> 
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/orderRing.JPG" class="d-block w-100" alt="...">
+                    <img src="images/orderRing.JPG" class="d-block w-100" alt="Ordered My Aggie Ring">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Ordered My Aggie Ring</h3>
+                      <p>College Station, TX</p>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/Nashville.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Nashville.jpg" class="d-block w-100" alt="Nashville Hot Chicken">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Nashville Hot Chicken</h3>
+                      <p>Nashville, TN</p>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Minesota.jpg" class="d-block w-100" alt="Summer Fun 2020 In Minnesota">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Summer Fun 2020</h3>
+                      <p>Minneapolis, MN</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Mommy.jpg" class="d-block w-100" alt="Mother and Son Time in Seaside Florida">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Mother and Son Time</h3>
+                      <p>Seaside, FL</p>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/NashvilleFriends.jpg" class="d-block w-100" alt="Vanderbilt University Winter 2021">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Vanderbilt University</h3>
+                      <p>Nashville, TN</p>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Friends.jpg" class="d-block w-100" alt="High School Football In Kyle Field">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>High School Football In Kyle Field</h3>
+                      <p>College Station, TX</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/NASA.jpg" class="d-block w-100" alt="NASA">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>NASA</h3>
+                      <p>Houston, TX</p>
+                    </div>
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -66,7 +125,28 @@
             </div>
         </div>
     </div>
-</body>
+    
+    <div class="hr-line-div">
+      <hr class="hr-line">
+    </div>
 
-<script src="index.js"></script>
+    <div class="goal-aboutMe-div">
+      <div class="card bg-dark">
+        <div class="goal-aboutMe-title">
+          <h2>Goals</h2>
+          <hr class="hr-line" style="color: black">
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus laudantium, quam commodi iure consequatur nostrum quibusdam expedita autem labore aperiam adipisci odit consectetur animi enim doloremque unde repudiandae alias quia.</p>
+      </div>
+
+      <div class="card bg-dark">
+        <div class="goal-aboutMe-title">
+          <h2>About Me</h2>
+          <hr class="hr-line" style="color: black">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero eos explicabo sit voluptatibus odio, aperiam quibusdam in accusamus fuga deserunt voluptas eligendi vero odit atque ea tempora iure provident!</p>
+      </div>
+    </div>
+    
+  </body>
 </html>

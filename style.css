@@ -1,26 +1,100 @@
 body{
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+body div{
+    /*border: 1px solid black;*/
+}
+
+.navbar{
+    box-shadow: 0px 8px 25px 0px black;
+}
+
+.logo-name{
+    display: flex;
+    flex-direction: start;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.nav-name{
+    padding-top: 10px;
+}
+
+.navbar-nav{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav-link:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 15%;
+}
+
+
 
 .title-text{
     display:flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 110px;
+    color: black;
+    width: 50%;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .fill-div{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.card{
+.picture-carousel{
     display:flex;
+    height: 450px;
+    width: 500px;
+    justify-content: center;
+}
+
+.carousel-item img{
+    width: 400px;
     height: 400px;
-    width: 50%;
+}
+
+.hr-line-div{
+    display: flex;
+    justify-content: center;
+}
+
+.hr-line{
+    color: black;
+    width: 80%;
+}
+
+.goal-aboutMe-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.goal-aboutMe-div div{
+    margin: 0px 25px 0px 25px;
+    color: white;
+}
+
+.goal-aboutMe-title{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
