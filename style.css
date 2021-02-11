@@ -56,14 +56,6 @@ body div{
     margin-bottom: 25px;
 }
 
-.fill-div1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
 .picture-carousel{
     display:flex;
     height: 450px;
