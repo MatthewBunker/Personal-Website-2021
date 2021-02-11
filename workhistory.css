@@ -44,9 +44,17 @@ body div{
     justify-content: space-evenly;
 }
 
-.social-media i:hover{
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    border-radius: 25%;
+.contact-info{
+    /*margin-top: 110px; uncomment after assignment*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.contact-info h1,h5{
+    display: flex;
+    justify-content: center;
 }
 
 .fill-div{
@@ -56,12 +64,15 @@ body div{
     margin-bottom: 25px;
 }
 
-.fill-div1{
+.resume{
+    box-shadow: 0px 8px 25px 0px black;
+    margin-bottom: 25px;
+}
+
+.header-div{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .picture-carousel{
@@ -85,17 +96,3 @@ body div{
     color: black;
     width: 80%;
 }
-
-.goal-aboutMe-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-    margin-top: 25px;
-}
-
-.goal-aboutMe-div div{
-    margin: 0px 25px 0px 25px;
-    color: white;
-}
-
